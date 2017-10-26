@@ -1,4 +1,4 @@
-FROM hiromis/ubuntu1604-node8-ffmpeg-im
+FROM onari/ubuntu1604-node8-ffmpeg-im
 MAINTAINER hiromis
 
 RUN apt -y install clamav clamav-daemon clamdscan
